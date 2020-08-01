@@ -1,0 +1,22 @@
+{
+  "name": "news_of_corona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "covid19-api": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "0.50.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "prettier": "^2.0.5"
+  }
+}
