@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Telegraf } = require('telegraf');
 const api = require('covid19-api'); 
 const Markup = require('telegraf/markup');
-const COUNTRIES_LIST = require('./constant')
+const COUNTRIES_LIST = require('./constant');
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 bot.start((ctx) => ctx.reply(`
