@@ -39,5 +39,5 @@ bot.on('text', async (ctx) => {
         }
 });
 bot.launch();
-// console.log('Bot started');
+console.log('Bot started');
 
